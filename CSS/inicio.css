@@ -6,27 +6,77 @@
 }
 
 body::-webkit-scrollbar{
-    width: 10px;
+    width: 1em;
     background-color:rgb(0, 0, 0);
 }
 
 body::-webkit-scrollbar-thumb{
-    width: 10px;
-    background-color:rgb(255, 145, 0);
-    border-radius: 8px;
+    width: 1em;
+    background-color:rgb(255, 217, 0);
+    border-radius: 2em;
 }
 
 :root{
     --blanco: #ffffff;
     --negro: #00070f;
     --azul_oscuro: #0b1355;
-    --amarillo: rgb(197, 169, 13);
+    --amarillo: rgb(253, 175, 30);
 }
+
+/* nombre de la pagina */
+
+.nombre{
+    width: 82em;
+    height: 8em;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace, rounded mt;
+}
+
+.nombre-cont{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    font-family: Arial, rounded mt;
+}
+
+.titulo {
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    font-size: 5em;
+}
+
+.contactos{
+    padding: 1em;
+    position: relative;
+    display: right;
+    align-items: right;
+    justify-content: center;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.contactos img{
+    width: 5em;
+    height: 5em;
+}
+
+/* Primera seccion de la pagina */
+
 .inicio{
-    width: 100vw;
+
+    width: 82em;
+    height: 40em;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../SRC/maxresdefault.svg);
 }
 
 .inicio-cont{
@@ -37,20 +87,25 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     height: 100%;
     flex-direction: row-reverse;
+    font-family: Arial, rounded mt;
 }
 
 .lapiz{
     position: relative;
-    width: 50%;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    display: left;
+    align-items: left;
     justify-content: center;
 }
 
 .lapiz img{
     display: flex;
-    width: 25em;
-    height: 25em;
+    width: 45em;
+    height: 30em;
+}
+
+.durisimo1{
+    font-size: 2.8em;
 }
 
 .registro-ingreso{
@@ -59,4 +114,115 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+}
+
+.registrarse-ingresar-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registrarse-ingresar-btn a{
+    padding: 5px 15px 15px 5px;
+    font-size: 2.5em;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+    color: var(--blanco);
+    transition: .2s;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn-r{
+    border: 5px solid var(--amarillo);
+}
+
+.btn-r:hover{
+    font-size: 3em;
+    border-color: var(--blanco);
+}
+
+.btn-i{
+    border: 5px solid var(--amarillo);
+}
+
+.btn-i:hover{
+    font-size: 3em;
+    border-color: var(--blanco);
+}
+
+.registro-ingreso h1{
+    color: rgb(255, 230, 0);
+    width: fit-content
+}
+
+/* Segunda seccion */
+
+.segunda1{
+    font-family: Arial, rounded mt;
+    padding: 40px 0px 40px 0px;
+    width: 82em;
+    height: 45em;
+    display: flex;
+    justify-content: center;
+    background-color: #000000; 
+}
+
+.PCgames{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.seleccion{
+    margin: 10px 60x;
+    float: left;
+    width: 200px;
+    transition: .1s;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.seleccion img{
+    width: 100%;
+    height: auto;
+}
+
+.seleccion:hover{
+    border: 2px solid yellow;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: .8em;
+}
+
+.alfabeto{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Seccion final */
+
+.final{
+    padding: 2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url(../SRC/maxresdefault.svg);
+    width: 82em;
+    height: 25em;
 }

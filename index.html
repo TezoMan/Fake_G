@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake Games</title>
     <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="shortcut icon" href="/SRC/Icono.ico">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/images.css">
 </head>
 <body>
     <!-- Seccion del nombre -->
-    <section class="nombre">
-        <section class="nombre-cont">
-            <div class="titulo">
-                <h1 style="color: yellow;"><del style="color: orange; font-size: .7em;">FAKE</del>GAMES</h1>
+    <header class="header">
+        <div class="logo">
+            <img src="SRC/Fakegames.png" alt="">
+        </div>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#" onclick="window.scroll(0,780)">Juegos de PC</a></li>
+                <li><a href="#" onclick="window.scroll(0,1460)">Android</a></li>
+                <li><a href="#">Actualizaciones</a></li>
+            </ul>
+            <div class = "hamburguesa">
+                <hr id="hr1">
+                <hr id="hr2">
+                <hr id="hr3">
             </div>
-          
-            <div class="contactos">
-                <a target="_blank" href="https://web.whatsapp.com/"><img src="SRC/wasaplogo.svg" alt=""></a>
-            </div>
-            <div class="contactos">
-                <img src="SRC/discorlogo.svg" alt="">
-            </div>
-            <div class="contactos">
-                <img src="SRC/instalogo.svg" alt="">
-            </div>
-            <div class="contactos">
-                <img src="SRC/Xlogo.svg" alt="">
-            </div>
-        </section>
-    </section>
+        </nav>
+
+        <div class="r-i-nav-phone">
+            <ul class="navlinks">
+                <li><a href="#">Juegos de PC</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Actualizaciones</a></li>
+            </ul>>
+        </div>
+    </header>
+
     <!-- Seccion inicial -->
     <section class="inicio">
         <div class="inicio-cont">
@@ -36,7 +45,7 @@
                 <img src="SRC/videogame.svg" alt="">
             </div>
             <div class="registro-ingreso">
-                <h1 class="durisimo1">Ingresa para <br>encontrar las entregas <br>mas <del style="color: rgb(163, 73, 0);">inexistentes</del> recientes <br><br></h1>
+                <p class="ingresaPara">Ingresa para <br>encontrar las entregas <br>mas <del style="color: rgb(163, 73, 0);">inexistentes</del> recientes <br></p>
                 <div class="registrarse-ingresar-btn">
                     <a class="btn-r" id="Boton">Registrarse</a>
                     <a target="_blank" class="btn-i">Ingresar</a>
@@ -48,17 +57,17 @@
 
     <!-- Inicio de la segunda seccion -->
     <section class="segunda1">
-        <div>
-            <hr><br><br>
-            <h1 class="PCgames" style="color: rgb(255, 238, 0);">JUEGOS DE PC</h1>
-            <hr><br><br>
-            <h1 class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</h1>
+        <hr>
+        <p class="PCgames" style="color: rgb(255, 238, 0);">JUEGOS DE PC</p>
+        <hr>
+        <p class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</p>
+        <div class="segunda-cont">
             <div class="seleccion">
                 <div class="foto">
                     <a target="_blank" href="https://www.youtube.com/watch?v=8Q4GHCk6b_E"><img src="SRC/Silksong.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>HOLLOW KNIGHT SILKSONG</h1>
+                    <p style="font-size: 20px;">HOLLOW KNIGHT SILKSONG</p>
                 </div>
             </div>
             <div class="seleccion">
@@ -66,7 +75,7 @@
                     <a target="_blank" href="https://www.youtube.com/watch?v=p-im-o84Z_o"><img src="SRC/carlosgruty.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>CALL OF GRUTY</h1>
+                    <p style="font-size: 20px;">CALL OF GRUTY</p>
                 </div>
             </div>
             <div class="seleccion">
@@ -74,7 +83,7 @@
                     <a target="_blank" href="https://www.youtube.com/watch?v=AOxIveB45z0"><img src="SRC/SAstories.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>GRAND THEFT AUTO SAN ANDREAS STORIES</h1>
+                    <p style="font-size: 20px;">GRAND THEFT AUTO SAN ANDREAS STORIES</p>
                 </div>
             </div>
             <div class="seleccion">
@@ -82,7 +91,7 @@
                     <a target="_blank" href="https://www.youtube.com/watch?v=PX7zPlQjAr8"><img src="SRC/Sanic.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>SANIC THE HEDGEHOG</h1>
+                    <p style="font-size: 20px;">SANIC THE HEDGEHOG</p>
                 </div>
             </div>
             <div class="seleccion">
@@ -90,59 +99,79 @@
                     <a target="_blank" href="https://www.youtube.com/watch?v=ei_OI2DxCI0"><img src="SRC/Budokai4.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>DRAGON BALL Z BUDOKAI TENKAICHI 4</h1>
+                    <p style="font-size: 20px;">DRAGON BALL Z BUDOKAI TENKAICHI 4</p>
                 </div>
             </div>
+            
         </div>
     </section>
     <!-- final de la segunda seccion -->
 
     <!-- Inicio de la tercera seccion -->
     <section class="segunda1">
-        <div>
-            <hr><br><br>
-            <h1 class="PCgames" style="color: rgb(21, 255, 0);">APLIACIONES DE ANDROID</h1>
-            <hr><br><br>
-            <h1 class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</h1>
+        <hr>
+        <p class="PCgames" style="color: rgb(21, 255, 0);">APLIACIONES DE ANDROID</p>
+        <hr>
+        <h1 class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</h1>
+        <div class="segunda-cont">
             <div class="seleccion">
                 <div class="foto">
-                    <img src="SRC/Arkam.svg" alt="">
+                    <a target="_blank" href="https://youtu.be/0KhEhkhRnGk"><img src="SRC/Arkam.svg" alt=""></a>
                 </div>
                 <div class="descripcion">
-                    <h1>BATMAN ARKHAM KNIGHT MOBILE</h1>
+                    <p style="font-size: 20px;">BATMAN ARKHAM KNIGHT MOBILE</p>
                 </div>
             </div>
             <div class="seleccion">
                 <div class="foto">
-                    <img src="SRC/GTA4.svg" alt="">
+                    <a target="_blank" href="https://youtu.be/FAuGIu3EwZI"><img src="SRC/GTA4.svg" alt="https://youtu.be/HWRDYIDFxkU"></a>
                 </div>
                 <div class="descripcion">
-                    <h1>GRAND THEFT AUTO 4 MOBILE</h1>
+                    <p style="font-size: 20px;">GRAND THEFT AUTO 4 MOBILE</p>
                 </div>
             </div>
             <div class="seleccion">
                 <div class="foto">
-                    <img src="SRC/wasap2.svg" alt="">
+                    <a target="_blank" href="https://youtu.be/4xa-gg8lU7E"><img src="SRC/wasap2.svg" alt="https://youtu.be/4xa-gg8lU7E"></a>
                 </div>
                 <div class="descripcion">
-                    <h1>WHATSAPP 2</h1>
+                    <p style="font-size: 20px;">WHATSAPP 2</p>
                 </div>
             </div>
             <div class="seleccion">
                 <div class="foto">
-                    <img src="SRC/discord2.svg" alt="">
+                    <a target="_blank" href="https://youtu.be/j-btHQbtnAg"><img src="SRC/discord2.svg" alt="https://youtu.be/j-btHQbtnAg"></a>
                 </div>
                 <div class="descripcion">
-                    <h1>DISCORD 2</h1>
+                    <p style="font-size: 20px;">DISCORD 2</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=0O7h69iadw0"><img src="SRC/penguin.png" alt="https://www.youtube.com/watch?v=0O7h69iadw0"></a>
+                </div>
+                <div class="descripcion">
+                    <p style="font-size: 20px;">CLUB PENGUIN REMAKE</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- fin de la tercera seccion -->
+<!-- 
+    <section class="cuart">
+        <div class="cuart-cont">
+            <hr>
+            <p style="color: yellow; font-size: 4em;">DESCARGUE MINECRAFT CON EL <del style="color: orange;">FAKE</del>LAUNCHER </p>
+            <div>
+                <button>FAKELAUNCHER 1.56.7</button>
+            </div>
+            <img src="SRC/maikra.jpg" alt="">
+        </div>
+    </section> -->
 
     <!-- inicio de la ultima seccion -->
     <section class="final">
-        <p style="color: rgb(255, 255, 255);">
+        <p style="color: rgb(255, 255, 255);" class="footer">
             Descargar Juegos para PC Gratis Torrent
             Los juegos para pc nos facilitan el tener que comprar una consola para jugar. Muchas veces no contamos con el dinero suficiente para comprar una consola de juegos para PS3 o PS4 sin embargo gracias a esta plataforma "PC" podemos jugar la mayoría de los juegos, incluso si no lo están existen programas llamados "Emuladores" que permiten que juguemos en la pc cualquier juego que queramos.
             <br><br>

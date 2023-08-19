@@ -1,19 +1,26 @@
+@font-face{
+    font-family: myfont;
+    src: url(../SRC/Hannover.otf);
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: myfont;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{
-    width: 1em;
+    width: 10px;
     background-color:rgb(0, 0, 0);
 }
 
 body::-webkit-scrollbar-thumb{
-    width: 1em;
+    width: 10px;
     background-color:rgb(255, 217, 0);
-    border-radius: 2em;
+    border-radius: 5px;
 }
 
 :root{
@@ -25,58 +32,59 @@ body::-webkit-scrollbar-thumb{
 
 /* nombre de la pagina */
 
-.nombre{
-    width: 82em;
-    height: 8em;
-    padding: 0px 40px 0px 40px;
+.header{
+    background-color: rgb(49, 0, 0);
     display: flex;
-    background-color: #000000;
-    font-family: 'Courier New', Courier, monospace, rounded mt;
-}
-
-.nombre-cont{
-    text-align: center;
-    display:flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    font-family: Arial, rounded mt;
+    height: 120px;
+    padding: 2px 2%;
 }
 
-.titulo {
-    align-items: left;
-    justify-content: left;
-    text-align: center;
-    font-size: 5em;
+
+.header .logo img{
+    width: 500px;
+    height: 100px;
 }
 
-.contactos{
-    padding: 1em;
-    position: relative;
-    display: right;
-    align-items: right;
-    justify-content: center;
-    margin-right: .5em;
-    margin-left: .5em;
+.header .navlinks{
+    font-size: 25px;
+    font-family: myfont;
+    list-style: none;
 }
 
-.contactos img{
-    width: 5em;
-    height: 5em;
+.header .navlinks li{
+    display: inline-block;
+    padding: 0 20px;
 }
+
+.header .navlinks li:hover{
+    
+    transition: all 0.2s;
+    transform: scale(1.3,1.3);
+}
+
+.header .navlinks li a:hover{
+    color: orange;
+}
+
+.header .navlinks a{
+    font-size: 700;
+    color: yellow;
+    text-decoration: none;
+}
+
 
 /* Primera seccion de la pagina */
 
 .inicio{
 
-    width: 82em;
+    width: 100vw;
     height: 40em;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../SRC/maxresdefault.svg);
+    background-image: url(../SRC/Fondo.png);
 }
 
 .inicio-cont{
@@ -84,18 +92,17 @@ body::-webkit-scrollbar-thumb{
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     flex-direction: row-reverse;
-    font-family: Arial, rounded mt;
 }
 
 .lapiz{
     position: relative;
-    width: 100%;
-    display: left;
-    align-items: left;
+    width: 100vw;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .lapiz img{
@@ -104,8 +111,9 @@ body::-webkit-scrollbar-thumb{
     height: 30em;
 }
 
-.durisimo1{
-    font-size: 2.8em;
+.ingresaPara{
+    font-size: 50px;
+    color: yellow;
 }
 
 .registro-ingreso{
@@ -123,10 +131,13 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+
 }
 
 .registrarse-ingresar-btn a{
     padding: 5px 15px 15px 5px;
+    margin-top: 15px;
     font-size: 2.5em;
     text-decoration: none;
     border-radius: 25px;
@@ -139,21 +150,21 @@ body::-webkit-scrollbar-thumb{
 }
 
 .btn-r{
-    border: 5px solid var(--amarillo);
+    border: 5px solid orangered;
 }
 
 .btn-r:hover{
     font-size: 3em;
-    border-color: var(--blanco);
+    border-color: yellow;
 }
 
 .btn-i{
-    border: 5px solid var(--amarillo);
+    border: 5px solid orangered;
 }
 
 .btn-i:hover{
     font-size: 3em;
-    border-color: var(--blanco);
+    border-color: yellow;
 }
 
 .registro-ingreso h1{
@@ -164,13 +175,12 @@ body::-webkit-scrollbar-thumb{
 /* Segunda seccion */
 
 .segunda1{
-    font-family: Arial, rounded mt;
     padding: 40px 0px 40px 0px;
-    width: 82em;
+    width: 100vw;
     height: 45em;
     display: flex;
     justify-content: center;
-    background-color: #000000; 
+    background-color: rgb(24, 0, 0);
 }
 
 .PCgames{
@@ -178,7 +188,7 @@ body::-webkit-scrollbar-thumb{
     text-align: center;
     display:flex;
     font-size: 4em;
-    margin-bottom: 30px;
+    padding: 30px;
 }
 
 .seleccion{
@@ -187,7 +197,7 @@ body::-webkit-scrollbar-thumb{
     width: 200px;
     transition: .1s;
     cursor: pointer;
-    margin-right: 40px;
+    padding: 0px 20px 0px 20px;
 }
 
 .seleccion img{
@@ -211,7 +221,7 @@ body::-webkit-scrollbar-thumb{
     text-align: center;
     display:flex;
     font-size: 1.5em;
-    margin-bottom: 30px;
+    padding: 30px;
     color: #ffffff;
 }
 
@@ -219,10 +229,15 @@ body::-webkit-scrollbar-thumb{
 
 .final{
     padding: 2em;
+    justify-content: center;
     display: flex;
     text-align: center;
-    align-items: center;
-    background-image: url(../SRC/maxresdefault.svg);
-    width: 82em;
+    align-items: right;
+    background-image: url(../SRC/Fondo.png);
+    width: 100vw;
     height: 25em;
+}
+
+.footer{
+    font-size: 1em;
 }

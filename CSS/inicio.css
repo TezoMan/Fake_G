@@ -49,7 +49,6 @@ body::-webkit-scrollbar-thumb{
 
 .header .navlinks{
     font-size: 25px;
-    font-family: myfont;
     list-style: none;
 }
 
@@ -174,13 +173,24 @@ body::-webkit-scrollbar-thumb{
 
 /* Segunda seccion */
 
+hr{
+    width: 100%;
+    height: 2px;
+}
+
+.segunda-cont{
+    margin-top: 50px;
+}
+
 .segunda1{
     padding: 40px 0px 40px 0px;
-    width: 100vw;
-    height: 45em;
     display: flex;
     justify-content: center;
     background-color: rgb(24, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .PCgames{
@@ -192,28 +202,28 @@ body::-webkit-scrollbar-thumb{
 }
 
 .seleccion{
-    margin: 10px 60x;
     float: left;
-    width: 200px;
+    width: 230px;
     transition: .1s;
     cursor: pointer;
-    padding: 0px 20px 0px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.seleccion img{
+.foto img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
-.seleccion:hover{
-    border: 2px solid yellow;
+.foto:hover{
+    border: 4px solid yellow;
 }
 
 .descripcion{
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    font-size: .8em;
+    font-size: 1.2em;
 }
 
 .alfabeto{
@@ -221,9 +231,45 @@ body::-webkit-scrollbar-thumb{
     text-align: center;
     display:flex;
     font-size: 1.5em;
-    padding: 30px;
+    padding: 25px;
     color: #ffffff;
 }
+
+/* Fake launcher */
+
+.cuart{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.cuart-cont{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+}
+
+.MCpicture{
+    position: relative;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 40px 40px 40px;
+}
+
+.MCpicture img{
+    width: 40px;
+}
+
 
 /* Seccion final */
 

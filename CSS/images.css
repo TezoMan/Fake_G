@@ -31,6 +31,16 @@
     .footer{
         font-size: .92em;
     }
+
+    .header .logo img{
+        width: 400px;
+        height: 80px;
+    }
+
+    .seleccion{
+        margin-left: 20px;
+    }
+    
 }
 
 @media only screen and (min-width: 495px) and (max-width: 852px){
@@ -68,6 +78,14 @@
     .footer{
         font-size: .9em;
     }
+
+    .seleccion{
+        margin-right: 5px;
+    }
+
+    .footer{
+        font-size: .7em;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 495px){
@@ -104,5 +122,15 @@
 
     .footer{
         font-size: .6em;
+    }
+    .PCgames{
+        font-size: 3em;
+    }
+    .alfabeto{
+        font-size: 1em;
+    }
+    
+    .seleccion{
+        float: none;
     }
 }

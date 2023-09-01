@@ -1,0 +1,35 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/MC_styles.css')}}">
+{% endblock %}
+
+{% block body %}
+<!-- PRUEBA -->
+<section class="MC_inicio">
+    <div class="MC_inicio_cont">
+        <div class="MC_inicio_render">
+            <img src="{{url_for('static', filename='SRC/render.svg')}}" alt="">
+        </div>
+        <div class="MC_botones">
+            <a class="MC_launcher">FAKELAUNCHER</a>
+            <a class="MC_launcher_pe">FAKELAUNCHER PE</a>
+            <div class="MC_persuacion">
+                <p>En la actualidad los Launchers confiables de Minecraft son muy poco comunes, y sin embargo existen. FakeLauncher es uno de ellos...</p>
+                <div class="MC_disponibilidad">
+                    <p>Ya disponible para:</p>
+                    <div class="MC_redes">
+                        <img src="{{url_for('static', filename='SRC/WinLogo.svg')}}" alt="" class="redes">
+                    </div>
+                    <div class="MC_redes">
+                        <img src="{{url_for('static', filename='SRC/LinuxLogo.svg')}}" alt="" class="redes">
+                    </div>
+                    <div class="MC_redes">
+                        <img src="{{url_for('static', filename='SRC/MacL.svg')}}" alt="" class="redes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

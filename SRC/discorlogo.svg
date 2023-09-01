@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-	<title>discorlogo</title>
-	<defs>
-		<image  width="100" height="76" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABMBAMAAABpMw88AAAAAXNSR0IB2cksfwAAABtQTFRFAAAA/+oAWWbyWGXxXGb1WmX0WGTyWWT0V2TxuSEd6gAAAAl0Uk5TAP8AAAAAAAAAVS+dRwAAASZJREFUeJztl0ESwjAIRZuNaxhduPRK3sT7r6ydaZt8fhKI2lVZGcgLnzbQcZpKU1XJ12l2TC3TxdoeAjCkBqU1LG2fPW8OJ/uL5MliNcNEfcLkiSMOXajMQ0AaH/KI6iqVDSA+oijGi0hU1xCiYV074k+yKRtA/MSm7BAkUMpazL8RDZdyJBIrZak/iFzDuhZl4LnhFlRhEFQqbAeuC0bsM8XqHYhYGcUWcnEBwTZlTehEnlXEDAM2HQRyghA6UNoIHVu/Qi5xYc3yldyXznv5HvFcGLU3u3ctERHcYZMg8mEwr2lLDduJnMg4IpXPkzQamTOCo7615FvA8er1C+vszEW/LmRIG6NhP7J7ma8X9SHUTf+lpcpxfaSSnhGN0HzYvYpk6d/Dh78EDxF+RwAAAABJRU5ErkJggg=="/>
-	</defs>
-	<style>
-	</style>
-	<use id="Background" href="#img1" x="0" y="12"/>
-</svg>

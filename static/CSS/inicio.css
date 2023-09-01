@@ -135,35 +135,28 @@ body::-webkit-scrollbar-thumb{
 }
 
 .registrarse-ingresar-btn a{
-    padding: 5px 15px 15px 5px;
+    padding: 15px;
     margin-top: 15px;
     font-size: 2.5em;
     text-decoration: none;
     border-radius: 25px;
     justify-content: center;
-    color: var(--blanco);
+    background-color: yellow;
+    color: black;
     transition: .2s;
     cursor: pointer;
     margin-right: 10px;
     text-align: center;
 }
 
-.btn-r{
-    border: 5px solid orangered;
-}
-
 .btn-r:hover{
     font-size: 3em;
-    border-color: yellow;
-}
-
-.btn-i{
-    border: 5px solid orangered;
+    background-color: rgb(255, 255, 220);
 }
 
 .btn-i:hover{
     font-size: 3em;
-    border-color: yellow;
+    background-color: rgb(255, 255, 220);
 }
 
 .registro-ingreso h1{
@@ -204,19 +197,26 @@ hr{
 .seleccion{
     float: left;
     width: 230px;
-    transition: .1s;
     cursor: pointer;
     margin-right: 10px;
     margin-left: 10px;
 }
 
+.foto{
+    transition: .2s;
+    }
+
 .foto img{
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
 
 .foto:hover{
-    border: 4px solid yellow;
+    filter: brightness(40%);
+    transform: rotate(5deg);
+    width: 100%;
+    height: 100%;
 }
 
 .descripcion{
@@ -258,18 +258,41 @@ hr{
 }
 
 .MCpicture{
-    position: relative;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    width: 100vw;
     padding: 0px 40px 40px 40px;
 }
 
 .MCpicture img{
-    width: 40px;
+    border-radius: 50px;
 }
 
+.botoncito{
+    justify-content: center;
+    transition: .2s;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botoncito:hover{
+    background-color: white;
+}
+
+.DESCARGUEYA{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 4em;
+    padding: 30px;
+}
 
 /* Seccion final */
 

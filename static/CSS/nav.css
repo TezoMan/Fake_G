@@ -46,7 +46,7 @@
     .hamburguesa hr{
         transition: .5s;
         position: relative;
-        width: 100%;
+        width: 60px;
         height: 5px;
         margin-top: 5px;
         background: white;

@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-	<title>instalogo</title>
-	<defs>
-		<image  width="100" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/+oAv26WRAAAAAJ0Uk5TAP9bkSK1AAABVklEQVR4nJ2Uy7GDMAxF5fHCS0pIJ8+lQWmkE0pgmQWDoz+WX8IizJDkTGxJvpYuAJTGzwn8VKG2Mim0naAY8dLJqPXbZOPstHVBOEy66AWQLzo4gRQxUYpCC+hJRBOHAg4O8ND66NeCrwKuQjqNCq6qh1HuqSakWRNAe2L0ebd0a6ANyZLntuEft7RKGUhVaW7bRXjiIzmRiJhPiURc26JEIm5/oKTyCSWVTyirfEJFb0hoakcmVY3wy+nB7+K0sHxC9VT5hA6VzwmPoMQiXrT/I/wQYqG+EQlV7+j1I32JeVdLqPrDiZwwVafEoFJQkFp06mjplKfWntvnG4u3GW86dkHsEOkepyqD2XUdOGUZaOtWGXYjqlKIu5yHwknGcSSbHBFqIJs4ka2jcVLjFA8TzkWBlhedIbqGO0ohim4TnSi61OBg0d2i80VX9KBSRe22Bad9A0Oge6XzxFbLAAAAAElFTkSuQmCC"/>
-	</defs>
-	<style>
-	</style>
-	<use id="Background" href="#img1" x="0" y="0"/>
-</svg>

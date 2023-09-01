@@ -41,6 +41,17 @@
         margin-left: 20px;
     }
     
+    .DESCARGUEYA{
+        font-size: 3em;
+        padding: 30px;
+    }
+    .botoncito{
+        font-size: 25px;
+        border-radius: 30px;
+        width: 250px;
+        height: 65px;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 495px) and (max-width: 852px){
@@ -85,6 +96,19 @@
 
     .footer{
         font-size: .7em;
+    }
+
+    .DESCARGUEYA{
+        font-size: 2.5em;
+        padding: 30px;
+    }
+
+    .botoncito{
+        font-size: 20px;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
     }
 }
 
@@ -132,5 +156,18 @@
     
     .seleccion{
         float: none;
+    }
+
+    .DESCARGUEYA{
+        font-size: 2.5em;
+        padding: 30px;
+    }
+
+    .botoncito{
+        font-size: 20px;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
     }
 }

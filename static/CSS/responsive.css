@@ -1,0 +1,173 @@
+@media only screen and (min-width: 852px) and (max-width: 1065px){
+
+
+    .lapiz{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .lapiz img{
+        width: 45em;
+        height: 25em;
+        margin-bottom: 35px;
+        
+    }
+
+    .registrarse-ingresar-btn{
+        flex-direction: column;
+
+    }
+
+    .registro-ingreso{
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+
+    .ingresaPara{
+        font-size: 40px;
+    }
+    
+    .footer{
+        font-size: .92em;
+    }
+
+    .header .logo img{
+        width: 400px;
+        height: 80px;
+    }
+
+    .seleccion{
+        margin-left: 20px;
+    }
+    
+    .DESCARGUEYA{
+        font-size: 3em;
+        padding: 30px;
+    }
+    .botoncito{
+        font-size: 25px;
+        border-radius: 30px;
+        width: 250px;
+        height: 65px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 495px) and (max-width: 852px){
+
+    .inicio-cont{
+        flex-direction: column;
+    }
+
+    .lapiz{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .lapiz img{
+        width: 30em;
+        height: 20em;
+        margin-bottom: 20px;
+        
+    }
+
+    .registrarse-ingresar-btn{
+        margin-top: 5px;
+        flex-direction: initial;
+    }
+
+    .registro-ingreso{
+        font-size: 0.7em;
+    }
+
+    .ingresaPara{
+        font-size: 35px;
+    }
+
+    .footer{
+        font-size: .9em;
+    }
+
+    .seleccion{
+        margin-right: 5px;
+    }
+
+    .footer{
+        font-size: .7em;
+    }
+
+    .DESCARGUEYA{
+        font-size: 2.5em;
+        padding: 30px;
+    }
+
+    .botoncito{
+        font-size: 20px;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 495px){
+
+    .inicio-cont{
+        flex-direction: column;
+    }
+
+    .lapiz{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .lapiz img{
+        width: 28em;
+        height: 18em;
+        margin-bottom: 45px;
+        
+    }
+
+    .registrarse-ingresar-btn{
+        margin-top: 5px;
+        flex-direction: initial;
+    }
+
+    .registro-ingreso{
+        font-size: 0.6em;
+    }
+
+    .ingresaPara{
+        font-size: 30px;
+    }
+
+    .footer{
+        font-size: .6em;
+    }
+    .PCgames{
+        font-size: 3em;
+    }
+    .alfabeto{
+        font-size: 1em;
+    }
+    
+    .seleccion{
+        float: none;
+    }
+
+    .DESCARGUEYA{
+        font-size: 2.5em;
+        padding: 30px;
+    }
+
+    .botoncito{
+        font-size: 20px;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+}

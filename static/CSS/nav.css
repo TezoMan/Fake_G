@@ -1,0 +1,99 @@
+.r-i-nav-phone{
+    display: none;
+}
+.hamburguesa{
+    display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1065px){
+
+    .r-i-nav-phone{
+        display: flex;
+    }
+
+    .hamburguesa{
+        display: flex;
+        flex-direction: column;
+        width: 12%;
+        height: 100%;
+        margin-top: 0px;
+        top: 0px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        transition: .2s;
+    }
+
+    .header .logo img{
+        width: 250px;
+        height: 55px;
+    }
+
+    
+    .hamburguesa{
+        width: 12%;
+        height: 100%;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        top: 0px;
+        transition: .2s;
+    }
+
+    .hamburguesa hr{
+        transition: .5s;
+        position: relative;
+        width: 60px;
+        height: 5px;
+        margin-top: 5px;
+        background: white;
+        border-radius: 30px;
+    }
+
+    .navlinks{
+        display: none;
+    }
+
+    header{
+        flex-direction: space-between;
+    }
+
+    .r-i-nav-phone .navlinks{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        list-style: none;
+        justify-content: space-between;
+        
+    }
+
+    .r-i-nav-phone {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url(../SRC/Fondo.png);
+        z-index: -100;
+        opacity: 0%;
+    }
+
+    .r-i-nav-phone .navlinks li{
+        display: inline-block;
+        padding: 0 20px;
+        margin: 20px;
+        border-bottom: 5px solid black;
+        width: 100%;
+    }
+    
+
+    .r-i-nav-phone .navlinks a{
+        font-size: 700;
+        color: yellow;
+        text-decoration: none;
+    }
+}

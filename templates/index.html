@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <!-- Seccion inicial -->
+    <section class="inicio">
+        <div class="inicio-cont">
+            <div class="lapiz">
+                <img src="{{url_for('static', filename='SRC/videogame.svg')}}" alt="">
+            </div>
+            <div class="registro-ingreso">
+                <p class="ingresaPara">Ingresa para <br>encontrar las entregas <br>mas <del style="color: rgb(163, 73, 0);">inexistentes</del> recientes <br></p>
+                <div class="registrarse-ingresar-btn">
+                    <a class="btn-r" id="Boton">Registrarse</a>
+                    <a target="_blank" class="btn-i">Ingresar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la seccion inicial -->
+
+    <!-- Inicio de la segunda seccion -->
+    <section class="segunda1">
+        <hr>
+        <p class="PCgames" style="color: rgb(255, 238, 0);">JUEGOS DE PC</p>
+        <hr>
+        <p class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</p>
+        <div class="segunda-cont">
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=8Q4GHCk6b_E"><img src="{{url_for('static', filename='SRC/Silksong.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p>HOLLOW KNIGHT SILKSONG</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=p-im-o84Z_o"><img src="{{url_for('static', filename='SRC/carlosgruty.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p>CALL OF GRUTY</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=AOxIveB45z0"><img src="{{url_for('static', filename='SRC/SAstories.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p>GRAND THEFT AUTO SAN ANDREAS STORIES</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=PX7zPlQjAr8"><img src="{{url_for('static', filename='SRC/Sanic.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p >SANIC THE HEDGEHOG</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=ei_OI2DxCI0"><img src="{{url_for('static', filename='SRC/Budokai4.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p>DRAGON BALL Z BUDOKAI TENKAICHI 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- final de la segunda seccion -->
+
+    <!-- Inicio de la tercera seccion -->
+    <section class="segunda1">
+        <hr>
+        <p class="PCgames" style="color: yellow">APLICACIONES DE ANDROID</p>
+        <hr>
+        <p class="alfabeto">ALFABETO:  A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z</p>
+        <div class="segunda-cont">
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/0KhEhkhRnGk"><img src="{{url_for('static', filename='SRC/Arkam.svg')}}" alt=""></a>
+                </div>
+                <div class="descripcion">
+                    <p>BATMAN ARKHAM KNIGHT MOBILE</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/FAuGIu3EwZI"><img src="{{url_for('static', filename='SRC/GTA4.svg')}}" alt="https://youtu.be/HWRDYIDFxkU"></a>
+                </div>
+                <div class="descripcion">
+                    <p>GRAND THEFT AUTO 4 MOBILE</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/4xa-gg8lU7E"><img src="{{url_for('static', filename='SRC/wasap2.svg')}}" alt="https://youtu.be/4xa-gg8lU7E"></a>
+                </div>
+                <div class="descripcion">
+                    <p>WHATSAPP 2</p>
+                </div>
+            </div>
+            <div class="seleccion">
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/j-btHQbtnAg"><img src="{{url_for('static', filename='SRC/discord2.svg')}}" alt="https://youtu.be/j-btHQbtnAg"></a>
+                </div>
+                <div class="descripcion">
+                    <p>DISCORD 2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de la tercera seccion -->
+
+    <!-- inicio de la cuarta seccion -->
+    <section class="cuart">
+        <div class="cuart-cont">
+            <hr>
+            <p style="color: yellow;" class="DESCARGUEYA">DESCARGUE MINECRAFT CON EL FAKELAUNCHER </p>
+            <div class = MCpicture>
+                <img src="{{url_for('static', filename='SRC/maikra.jpg')}}" alt="">
+            </div>
+            <div>
+                <a href="{{url_for('static', filename='SRC/maikra.jpg')}}"><button class="botoncito">FAKELAUNCHER 1.56.7</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- fin de la cuarta seccion -->
+{% endblock %}

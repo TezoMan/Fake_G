@@ -1,0 +1,314 @@
+@font-face{
+    font-family: myfont;
+    src: url(../SRC/Hannover.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: myfont;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color:rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color:rgb(255, 217, 0);
+    border-radius: 5px;
+}
+
+:root{
+    --blanco: #ffffff;
+    --negro: #00070f;
+    --azul_oscuro: #0b1355;
+    --amarillo: rgb(253, 175, 30);
+}
+
+/* nombre de la pagina */
+
+.header{
+    background-color: rgb(49, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 2px 2%;
+}
+
+
+.header .logo img{
+    width: 500px;
+    height: 100px;
+}
+
+.header .navlinks{
+    font-size: 25px;
+    list-style: none;
+}
+
+.header .navlinks li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .navlinks li:hover{
+    
+    transition: all 0.2s;
+    transform: scale(1.3,1.3);
+}
+
+.header .navlinks li a:hover{
+    color: orange;
+}
+
+.header .navlinks a{
+    font-size: 700;
+    color: yellow;
+    text-decoration: none;
+}
+
+
+/* Primera seccion de la pagina */
+
+.inicio{
+
+    width: 100vw;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../SRC/Fondo.png);
+}
+
+.inicio-cont{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    flex-direction: row-reverse;
+}
+
+.lapiz{
+    position: relative;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.lapiz img{
+    display: flex;
+    width: 45em;
+    height: 30em;
+}
+
+.ingresaPara{
+    font-size: 50px;
+    color: yellow;
+}
+
+.registro-ingreso{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+}
+
+.registrarse-ingresar-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.registrarse-ingresar-btn a{
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 2.5em;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+    background-color: yellow;
+    color: black;
+    transition: .2s;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn-r:hover{
+    font-size: 3em;
+    background-color: rgb(255, 255, 220);
+}
+
+.btn-i:hover{
+    font-size: 3em;
+    background-color: rgb(255, 255, 220);
+}
+
+.registro-ingreso h1{
+    color: rgb(255, 230, 0);
+    width: fit-content
+}
+
+/* Segunda seccion */
+
+hr{
+    width: 100%;
+    height: 2px;
+}
+
+.segunda-cont{
+    margin-top: 50px;
+}
+
+.segunda1{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.PCgames{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 4em;
+    padding: 30px;
+}
+
+.seleccion{
+    float: left;
+    width: 230px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.foto{
+    transition: .2s;
+    }
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.foto:hover{
+    filter: brightness(40%);
+    transform: rotate(5deg);
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.alfabeto{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 1.5em;
+    padding: 25px;
+    color: #ffffff;
+}
+
+/* Fake launcher */
+
+.cuart{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.cuart-cont{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+}
+
+.MCpicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0px 40px 40px 40px;
+}
+
+.MCpicture img{
+    border-radius: 50px;
+}
+
+.botoncito{
+    justify-content: center;
+    transition: .2s;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botoncito:hover{
+    background-color: white;
+}
+
+.DESCARGUEYA{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    font-size: 4em;
+    padding: 30px;
+}
+
+/* Seccion final */
+
+.final{
+    padding: 2em;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: right;
+    background-image: url(../SRC/Fondo.png);
+    width: 100vw;
+    height: 25em;
+}
+
+.footer{
+    font-size: 1em;
+}

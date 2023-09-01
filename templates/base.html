@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Games</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/inicio.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='SRC/icono.ico')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/nav.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/responsive.css')}}">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <!-- Seccion del nombre -->
+    <header class="header">
+        <div class="logo">
+            <img src="{{url_for('static', filename='SRC/Fakegames.png')}}" alt="">
+        </div>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#" onclick="window.scroll(0,780)">Juegos de PC</a></li>
+                <li><a href="#" onclick="window.scroll(0,1460)">Android</a></li>
+                <li><a href="#" onclick="window.scroll(0,2000)">Copyright</a></li>
+            </ul>
+        </nav>
+        <div class = "hamburguesa">
+            <hr id="hr1">
+            <hr id="hr2">
+            <hr id="hr3">
+        </div>
+    </header>
+    <div class="r-i-nav-phone " id="nav">
+        <ul class="navlinks" id="nav">
+            <li><a href="#" id="PCJuegos" >Juegos de PC</a></li>
+            <li><a href="#"id="Androi">Android</a></li>
+            <li><a href="#" id="Actualizaciones">Copyright</a></li>
+        </ul>>
+    </div>
+    {% block body %}
+    {% endblock %}
+    <!-- inicio de la ultima seccion -->
+    <section class="final">
+        <p style="color: rgb(255, 255, 255);" class="footer">
+            Descargar Juegos para PC Gratis Torrent
+            Los juegos para pc nos facilitan el tener que comprar una consola para jugar. Muchas veces no contamos con el dinero suficiente para comprar una consola de juegos para PS3 o PS4 sin embargo gracias a esta plataforma "PC" podemos jugar la mayoría de los juegos, incluso si no lo están existen programas llamados "Emuladores" que permiten que juguemos en la pc cualquier juego que queramos.
+            <br><br>
+            Juegos pc de bajos recursos
+            Para muchos de nosotros es complicado a veces jugar algún juego de altos recursos, incluso porque no tenemos el dinero suficiente para correrlos. Es por ello que también tenemos juegos en nuestra lista para pcs de bajos recursos, si. si tienes una tarjeta integrada intel de las antiguas, también tenemos juegos de todo tipo para ti en gamestorrents.
+            <br><br>
+            Juegos pc de medios recursos
+            Podemos tener un buen pc, pero no apto para las ultimas graficas, incluso hay tarjetas integradas muy buenas de intel, ATI o Nvidia. sin embargo se encuentra en el nivel medio de juegos livianos y juegos de altos recursos. entre esos juegos podrás encontrar a varias versiones de NFS, ya sea la most wanted, the run, etc.
+            <br><br>
+            Juegos pc de Altos Recursos
+            Si te gustan los juegos de altos recursos para graficas ATI o Nvidia muy potentes de mas de 256 bits, estás en el lugar correcto, tenemos juegos como crysis, Far Cry, PREY, Andromeda, Battlefield 1, Halo, entre otros que poseen las mejores graficas del mundo, puedes visitar en todo nuestro repertorio de juegos y podrás encontrar todos los juegos y con las mejores graficas del mundo totalmente gratis! incluso, vamos a linkear esos juegos.
+            <br><br><br>
+            <del style="color: rgb(150, 150, 150);">FAKE</del> GAMES © | DESCARGAR JUEGOS GRATIS | 2004-2023
+        </p>
+    </section>
+    <script src="{{url_for('static', filename='JS/app.js')}}"></script>
+</body>
+</html>
